@@ -1,0 +1,763 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+nav{
+    width: 100%;
+    height: 80px;
+   
+    
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+   color: white;
+   position: fixed;
+   background-color: black;
+
+}
+.logo{
+    width: 30%;
+    height: 80px;
+    color: red;
+    font-size: 25px;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+.menu{
+    width: 55%;
+    height: 80px;
+    display: flex;
+    font-size: 25px;
+    gap: 30px;
+    padding-top: 40px;
+}
+.menu h5:hover{
+    color: orangered;
+}
+.co{
+    width: 15%;
+    height: 80px;
+    font-size: 13px;
+    display: flex;
+    gap: 10px;
+    padding-top:40px ;
+    padding-left: 30px;
+}
+.navbar2{
+    width: 100%;
+    height: 100px;
+    background-color:black;
+    color: white;
+    position: fixed;
+}
+.navbar22{
+    width: 100%;
+    height: 70px;
+    color: white;
+    display: flex;
+
+}
+.logo2{
+    width: 30%;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 20px;
+
+}
+.menu2{
+    width: 45%;
+    height: 50px;
+    display: flex;
+    font-size: 9px;
+    gap: 25px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.menu2 h1:hover{
+    color: orangered;
+}
+.book{
+    width: 30%;
+    height: 50px;
+    color: white;
+    display: flex;
+    padding-top: 10px;
+    padding-right: 5px;
+    gap: 10px;
+}
+.button1{
+    width: 100%;
+    height: 50px;
+    font-size: 10px;
+    background-color: white;
+
+
+}
+.button2{
+    width: 100%;
+    height: 50px;
+    font-size: 7px;
+    background-color: orangered;
+
+}
+.navbar3{
+    width: 50%;
+    height: 30px;
+    color: white;
+    font-size: 10px;
+    padding-left: 20px;
+
+}
+.home{
+    width: 100%;
+    height: 700px;
+    background-image: url(download.png);
+    background-size: cover;
+ 
+}
+.home1{
+    width: 8%;
+    height: 50px;
+    padding-top: 500px;
+    margin-left: 90%;
+    position: fixed;
+}
+.home1 img{
+    width: 100%;
+    height: 50px;
+    border-radius: 50%;  
+}
+.intro{
+    width: 100%;
+    height: 700px;
+    background-image: url(istockphoto-513247652-612x612.jpg);
+    background-size: cover;
+}
+.heading{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+   padding-top: 200px;
+}
+.heading2{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    margin-top: 130px;
+    color: black;
+}
+.heading3{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: black;
+}
+.heading4{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: black;
+
+}
+.introb{
+    width: 100%;
+    height: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.introb button{
+    width: 10%;
+    border-radius: 30px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+}
+.vi{
+    width: 100%;
+    height: 600px;
+    margin-left: 150px;
+    
+    margin-top: 200px;
+}
+.mountain{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    margin-top: 200px;
+}
+.mvideo{
+    width: 50%;
+    height: 600px;
+    padding-left: 50px;
+    margin-right: 20px;
+}
+.mabout{
+    width: 50%;
+    height: 600px;
+   /* padding-left: 100px;
+    padding-top: 150px; */
+
+}
+.mh{
+    width: 100%;
+    height: 40px;
+    text-align: end;
+    margin-top: 150px;
+    font-size: 20px; 
+}
+.mp{
+    width: 100%;
+    height: 40px;
+    text-align: end;
+    font-size: 20px; 
+    margin-top: 100px;
+
+}
+.mb{
+    width: 100%;
+    height: 50px;
+    color: black;
+    text-align: end;
+    margin-top: 110px;
+  
+}
+.mb button{
+    width: 20%;
+    height: 40px;
+    font-size: 8px;
+    border: 1px solid black;
+    background-color: white;
+}
+.bike{
+    width: 100%;
+    height: 600px;
+    margin-top: 200px;
+    display: flex;
+    color: black;
+    background-image: url("download (1).png");
+    background-size: cover;
+}
+.fits{
+    width: 50%;
+    height: 400px;
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-right: 20px;
+
+}
+.fitsh{
+    width: 100%;
+    height: 40px;
+    padding-top: 100px;
+}
+.fitsp{
+    width: 100%;
+    height: 40px;
+    padding-top: 50px;
+}
+/* .bikephoto{
+    width: 50%;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 20px;
+   
+
+} */
+.heart{
+    width: 100%;
+    height: 600px;
+    background-image: url("download (2).png");
+    background-size: cover;
+    display: flex;
+}
+.goat{
+    width: 40%;
+    height: 200px;
+   text-align: end;
+   margin-top: 100px;
+}
+.goatp{
+    width: 60%;
+    height: 200px;
+   margin-top: 150px;
+   padding-left: 50px;
+}
+.Tripper{
+    width: 100%;
+    height: 600px;
+    margin-top: 200px;
+    background-image: url("himalayan-tripper.avif");
+    background-size: cover;
+}
+.Tripperd{
+    padding-top: 350px;
+    padding-left: 30px;
+    color: white;
+}
+.Tripperb button{
+    width: 10%;
+    height: 40px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.fuction{
+    width: 100%;
+    height: 800px;
+    margin-top: 150px;
+    background-image: url("royal-enfield-himalayan-highlights.webp");
+    background-size: cover;
+    box-shadow: 20px white;
+
+}
+.showroom{
+    width: 100%;
+    height: 600px;
+    margin-top: 200px;
+    display: flex;
+}
+.showroomd{
+    width: 50%;
+    height: 500px;
+    margin-left: 40px;
+    margin-right:40px ;
+}
+.imageb{
+    width: 100%;
+    height: 400px;
+    background-image: url("hanle-black-029.avif");
+    background-size: cover;
+   
+}
+.showroomprice{
+    width: 50%;
+    height: 500px;
+    margin-top: 0px;
+}
+.showb1 button{
+    width: 30%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+.showb2 button{
+    width: 30%;
+    height: 40px;
+    background-color: white;
+    color: black;
+    font-size: 8px;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+.showb2 button:hover{
+    color: white;
+    background-color: black;
+}
+.Colors{
+    width: 100%;
+    height: 200px;
+    padding-top: 30px;
+}
+.box{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    gap: 20px;
+}
+.box1{
+    width: 30%;
+    height: 150px;
+    background-image: url("hanle-black.avif");
+}
+.box2{
+    width: 30%;
+    height: 150px;
+    background-image: url("kamet-white.webp");
+}
+.box3{
+    width: 30%;
+    height: 150px;
+    background-image: url("slate-poppy.png");
+}
+.name{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    gap: 150px;
+    font-size: 10PX;
+    padding-top: 20PX;
+}
+.books{
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+.book1{
+    width: 90%;
+    height: 600px;
+    margin-left: 100px;
+    display: flex;
+}
+.book1:hover{
+    box-shadow: 0 0 20px gray;
+}
+.bookphoto{
+    width: 50%;
+    height: 600px;
+    background-image: url("himalayan-pre-book-now.avif");
+    background-size: cover;
+    padding-top: 450px;
+    padding-left: 50px;
+}
+.bookphoto button{
+    width: 30%;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 8px;
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+}
+.testride{
+    width: 50%;
+    height: 600px;
+    background-color: rgba(128, 128, 128, 0.861);
+
+}
+.bt{
+    width: 100%;
+    height: 50px;
+    margin-left: 70px;
+    margin-top: 150px;
+}
+.bt input{
+    width: 70%;
+    height: 40px;
+    margin-top: 10px;
+    border: 0px none white;
+}
+.bt button{
+    width: 30%;
+    height: 40px;
+    font-size: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.socity{
+    width: 100%;
+    height: 600px;
+}
+.explorerh{
+    width: 100%;
+    height: 50px;
+    margin-left: 50px;
+}
+.explorer{
+    width: 90%;
+    height: 550px;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.explorer1{
+    width: 50%;
+    height: 550px;
+    display: flex;
+    gap: 20px;
+}
+.explorer1photo{
+    width: 40%;
+    height: 450px;
+    background-image: url("louis-rudd.avif");
+    background-size: cover;
+    border-radius:  30px;
+}
+.explorer1details{
+    width: 50%;
+    height: 450px;
+    font-size: 15px;
+    margin-top: 100px;
+}
+.explorer2{
+    width: 50%;
+    height: 550px;
+    display: flex;
+    gap: 20px;
+
+}
+.explorer2photo{
+    width: 40%;
+    height: 450px;
+    background-image: url("santhosh.avif");
+    background-size: cover;
+    border-radius:  30px;
+}
+.explorer2details{
+    width: 50%;
+    height: 450px;
+    font-size: 15px;
+    margin-top: 100px;
+}
+
+.newhemalayan{
+    width: 100%;
+    height: 600px;
+    background-image: url("new-himalayan-1920x750-02.avif");
+    background-size: cover;
+    margin-top: 100px;
+}
+.newhemalayan button{
+    width: 10%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    margin-top: 500px;
+    margin-left: 100px;
+    border: 1px solid black ;
+    font-size: 10px;
+}
+.ad{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 10px;
+}
+.gallary{
+    width: 100%;
+    height: 800px;
+    margin-top: 100px;
+}
+.gallaryh{
+    width: 100%;
+    height: 50px;
+    margin-left: 50px;
+}
+.gallaryp{
+    width: 100%;
+    height: 500px;
+    margin-left: 50px;
+    gap: 20px;
+    /* display: grid; */
+    /* display: flex; */
+}
+.gallaryp1{
+    width: 100%;
+    height: 500px;
+    gap: 20px;
+}
+.maping{
+    width: 100%;
+    height: 150px;
+    background-color: gray;
+    color: white;
+    display: flex;
+    font-size: 10px;
+    gap: 350px;
+    padding-left: 100px;
+    text-align: center;
+    padding-top: 80px;
+}
+.socialmedia{
+    width: 100%;
+    height: 100px;
+    text-align: right;
+    /* gap: 200px; */
+    font-size: 10px;
+    padding-right: 100px;
+    padding-top: 50px;
+   
+
+}
+
+.footer{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    gap: 10px;
+    margin-left: 30px;
+    margin-top: 50px;
+    /* background-color: ; */
+}
+.footer1{
+    width: 15%;
+    height: 400px;
+    font-size: 15px;
+
+}
+.footer2{
+    width: 15%;
+    height: 400px;
+    font-size: 15px;
+    
+}
+.footer3{
+    width: 15%;
+    height: 400px;
+    font-size: 15px;
+    
+}
+.footer4{
+    width: 15%;
+    height: 400px;
+    font-size: 15px;
+    
+}
+.footer5{
+    width: 15%;
+    height: 400px;
+    font-size: 15px;
+    
+}
+.footer6{
+    width: 15%;
+    height: 400px;
+    font-size: 15px;
+    
+}
+.footer7{
+    width: 15%;
+    height: 400px;
+    font-size: 15px;
+    
+}
+.footer7 p:hover{
+    color: orangered;
+}
+
+
+
+
+@media screen and (max-width:420px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        text-decoration: none;
+        box-sizing: border-box;
+        
+    }
+    nav{
+        width: 100%;
+        height: 80px;
+       
+        
+    }
+    .navbar{
+        width: 100%;
+        height: 100px;
+        display: flex;
+       color: white;
+       position: fixed;
+       background-color: black;
+    
+    }
+    .logo{
+        width: 40%;
+        height: 00px;
+        color: red;
+        font-size: 20px;
+        padding-top: 15px;
+        padding-left: 0px;
+    }
+    .menu{
+        width: 60%;
+        height: 100px;
+        display: flex;
+        font-size: 25px;
+        gap: 10px;
+        padding-top: 20px;
+    }
+    .menu h5:hover{
+        color: orangered;
+    }
+    .co{
+        width: 20%;
+        height: 100px;
+        font-size: 25px;
+        display: flex;
+        gap: 5px;
+        padding-top:20px ;
+        padding-left: 15px;
+    }
+    .navbar2{
+        width: 100%;
+        height: 100px;
+        background-color:black;
+        color: white;
+        position: fixed;
+    }
+    .navbar22{
+        width: 100%;
+        height: 50px;
+        color: white;
+        display: flex;
+    
+    }
+    .logo2{
+        width: 10%;
+        height: 30px;
+        padding-top: 10px;
+        padding-left: 20px;
+    
+    }
+    .menu2{
+        width: 45%;
+        height: 50px;
+        display: flex;
+        font-size: 9px;
+        gap: 5px;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    .menu2 h1:hover{
+        color: orangered;
+    }
+    .book{
+        width: 10%;
+        height: 50px;
+        color: white;
+        display: flex;
+        padding-top: 10px;
+        padding-right: 5px;
+        gap: 10px;
+    }
+    .button1{
+        width: 50%;
+        height: 50px;
+        font-size: 10px;
+        background-color: white;
+    
+    
+    }
+    .button2{
+        width: 50%;
+        height: 50px;
+        font-size: 7px;
+        background-color: orangered;
+    
+    }
+    .navbar3{
+        width: 20%;
+        height: 30px;
+        color: white;
+        font-size: 10px;
+        padding-left: 20px;
+    
+    }
+    
+}
